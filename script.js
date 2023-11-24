@@ -65,14 +65,12 @@ let colorRev = () =>{
                 //otherwise it was setting before this all completed.
                 if(index==6){
                     start=0;
+                    count=0;
                 }
         },index*1000);
 
     }
-console.log("start: "+start)
-count=0;
-console.log(count);
-console.log(s1Order+""+s2Order+""+s3Order+""+s4Order+""+s5Order+""+s6Order);
+
 
 
 };
